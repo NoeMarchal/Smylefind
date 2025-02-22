@@ -324,9 +324,11 @@ p {
         font-size: 0.8em;
     }
     #socialButton {
-        font-size: 0.6em;
+        font-size: 1em;
         padding: 6px 12px;
         top: 10px;
+        width: 75%;
+        left: 12%;
     }
     .emoji img {
         width: 50px;
