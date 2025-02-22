@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <title>Smylefind</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" href="images\icone.webp" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images\icone.webp" />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="images\icone.webp"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="images\icone.webp"
+    />
+</head>
+<body>
+    <button id="socialButton">🔗</button>
+    <div class="container-wrapper">
+        <div class="searchcontainer">
+            <h1> Rechercher des Icônes Smileys</h1>
+            <input type="text" id="search" placeholder="Tapez un mot-clé (ex: happy, sad)">
+            <button onclick="searchEmojis()">Rechercher</button>
+        </div>
+        <div class="gallerycontainer">
+            <h2>Résultats de la recherche</h2>
+            <div id="gallery"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
